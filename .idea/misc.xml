@@ -4,9 +4,9 @@
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1478573152088" />
-    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../../tools/exports.xml" />
+    <option name="importOrderConfigFilePath" value="E:/tools/exports.xml" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../tools/exports.xml" />
+    <option name="pathToConfigFileJava" value="E:/tools/exports.xml" />
     <option name="selectedJavaProfile" value="exorts" />
   </component>
   <component name="EntryPointsManager">
@@ -19,17 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
