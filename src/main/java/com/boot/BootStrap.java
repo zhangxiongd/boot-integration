@@ -21,8 +21,6 @@ import com.boot.config.RedisConfig;
 @EnableConfigurationProperties(RedisConfig.class)
 public class BootStrap {
     public static void main(String[] args) {
-        Long id = 5075008l;
-        System.out.println(StringUtils.pathEquals(String.valueOf(id), "5075008"));
         SpringApplication app = new SpringApplication(BootStrap.class);
         app.run(args);
     }
