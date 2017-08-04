@@ -26,7 +26,7 @@ public class UserController {
 
     @RequestMapping("/query")
     String getName() {
-        return userService.getUserName() + accountService.getAccountName();
+        return userService.getUserName()+ "  " + accountService.getAccountName();
     }
 
 }

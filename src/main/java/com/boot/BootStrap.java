@@ -6,6 +6,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.util.StringUtils;
 
 import com.boot.config.RedisConfig;
@@ -18,6 +19,7 @@ import com.boot.config.RedisConfig;
 @ComponentScan
 @EnableAutoConfiguration
 @ImportResource("spring/spring-content.xml")
+@PropertySource("config/context.properties")
 @EnableConfigurationProperties(RedisConfig.class)
 public class BootStrap {
     public static void main(String[] args) {
